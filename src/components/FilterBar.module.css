@@ -10,6 +10,11 @@
   text-decoration: underline;
 }
 
+.hide {
+  visibility: hidden;
+  height: 7.4rem;
+}
+
 .filter {
   padding: 2rem 2rem 0 0;
   display: flex;

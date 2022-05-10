@@ -2,7 +2,7 @@ import styles from "./Job.module.css";
 
 const TAG_PROPS = ["role", "level", "languages", "tools"];
 
-const Job = ({ job }) => {
+const Job = ({ job, addTag }) => {
   const renderTags = () => {
     const tags = [];
 
@@ -10,7 +10,11 @@ const Job = ({ job }) => {
       if (prop === "role" || prop === "level") {
         if (job[prop]) {
           tags.push(
-            <span key={job.company + job[prop]} className={styles.tag}>
+            <span
+              key={job.company + job[prop]}
+              className={styles.tag}
+              onClick={() => addTag(prop + "/" + job[prop])}
+            >
               {job[prop]}
             </span>
           );
@@ -18,7 +22,11 @@ const Job = ({ job }) => {
       } else {
         for (let tag of job[prop]) {
           tags.push(
-            <span key={job.company + tag} className={styles.tag}>
+            <span
+              key={job.company + tag}
+              className={styles.tag}
+              onClick={() => addTag(prop + "/" + tag)}
+            >
               {tag}
             </span>
           );
