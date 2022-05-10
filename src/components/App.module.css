@@ -1,0 +1,23 @@
+.header {
+  background-image: url("../images/bg-header-desktop.svg");
+  height: 15.6rem;
+  background-color: var(--desaturated-dark-cyan);
+}
+
+.main {
+  min-height: 100vh;
+  height: auto;
+}
+
+.section {
+  padding: 0 10rem;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  clip: rect(1px 1px 1px 1px);
+}
