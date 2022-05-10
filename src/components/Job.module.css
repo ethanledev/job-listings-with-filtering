@@ -1,0 +1,138 @@
+h2 {
+  color: var(--very-dark-grayish-cyan);
+  cursor: pointer;
+}
+
+h2:hover {
+  color: var(--desaturated-dark-cyan);
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-color: white;
+  margin-bottom: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  border-radius: 0.6rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.companyName {
+  color: var(--desaturated-dark-cyan);
+  padding-right: 1.5rem;
+}
+
+.dot {
+  padding: 0 2rem;
+}
+
+.featuredJob {
+  border-left: 0.5rem solid var(--desaturated-dark-cyan);
+}
+
+.featuredTag {
+  background-color: var(--very-dark-grayish-cyan);
+  color: white;
+  padding: 0.5rem 0.7rem;
+  border-radius: 2rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.infoFooter {
+  color: var(--dark-grayish-cyan);
+}
+
+.logo {
+  padding-right: 3rem;
+}
+
+.newTag {
+  background-color: var(--desaturated-dark-cyan);
+  color: white;
+  padding: 0.5rem 0.7rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+
+.tag {
+  background-color: var(--light-grayish-cyan-filter);
+  color: var(--desaturated-dark-cyan);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.tag:hover {
+  background-color: var(--desaturated-dark-cyan);
+  color: white;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .article {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .article {
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 5rem;
+  }
+
+  .info {
+    border-bottom: 1px solid var(--dark-grayish-cyan);
+    padding-bottom: 2rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    padding-right: 0;
+    width: 6rem;
+    height: 6rem;
+    transform: translateY(-50%);
+  }
+
+  .tags {
+    padding-top: 1rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .dot {
+    padding: 0 1rem;
+  }
+
+  .info {
+    padding-top: 2rem;
+    justify-content: flex-start;
+  }
+
+  .tag {
+    margin: 1rem 2rem 1rem 0;
+  }
+
+  .tags {
+    padding-left: 0;
+  }
+}

@@ -1,5 +1,5 @@
 .header {
-  background-image: url("../images/bg-header-desktop.svg");
+  background-image: url("../icons/bg-header-desktop.svg");
   height: 15.6rem;
   background-color: var(--desaturated-dark-cyan);
 }
@@ -20,4 +20,16 @@
   margin: -1px;
   padding: 0;
   clip: rect(1px 1px 1px 1px);
+}
+
+@media only screen and (max-width: 1200px) {
+  .section {
+    padding: 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section {
+    padding: 0 2rem;
+  }
 }

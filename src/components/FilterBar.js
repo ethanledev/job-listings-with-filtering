@@ -1,5 +1,5 @@
 import styles from "./FilterBar.module.css";
-import { ReactComponent as RemoveIcon } from "../images/icon-remove.svg";
+import { ReactComponent as RemoveIcon } from "../icons/icon-remove.svg";
 
 const FilterBar = () => {
   return (
