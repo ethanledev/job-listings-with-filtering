@@ -1,15 +1,25 @@
 {
   "files": {
     "main.css": "/job-listings-with-filtering/static/css/main.b6f61c12.css",
-    "main.js": "/job-listings-with-filtering/static/js/main.d33afffe.js",
+    "main.js": "/job-listings-with-filtering/static/js/main.9000b548.js",
+    "static/media/loop-studios.svg": "/job-listings-with-filtering/static/media/loop-studios.7778c957c5751d1502cc.svg",
+    "static/media/photosnap.svg": "/job-listings-with-filtering/static/media/photosnap.5a867c13a374d62b400f.svg",
+    "static/media/manage.svg": "/job-listings-with-filtering/static/media/manage.5a528a9669728fb94c8c.svg",
+    "static/media/insure.svg": "/job-listings-with-filtering/static/media/insure.4d535e7e02c25d02b163.svg",
+    "static/media/account.svg": "/job-listings-with-filtering/static/media/account.903d6cd02abadf4b4d60.svg",
+    "static/media/eyecam-co.svg": "/job-listings-with-filtering/static/media/eyecam-co.0abb14e8a292eed471d5.svg",
+    "static/media/shortly.svg": "/job-listings-with-filtering/static/media/shortly.3c01b577742e2648f6f9.svg",
+    "static/media/myhome.svg": "/job-listings-with-filtering/static/media/myhome.aaaaa430346f24f652d5.svg",
+    "static/media/the-air-filter-company.svg": "/job-listings-with-filtering/static/media/the-air-filter-company.9b55f6443c39f7b79348.svg",
+    "static/media/faceit.svg": "/job-listings-with-filtering/static/media/faceit.54a148ce9e8793ff767e.svg",
     "static/media/bg-header-desktop.svg": "/job-listings-with-filtering/static/media/bg-header-desktop.8694f4668c94cdc9d16e.svg",
     "index.html": "/job-listings-with-filtering/index.html",
     "static/media/icon-remove.svg": "/job-listings-with-filtering/static/media/icon-remove.70c075ce001e5ccae7c68a570c4b7bc0.svg",
     "main.b6f61c12.css.map": "/job-listings-with-filtering/static/css/main.b6f61c12.css.map",
-    "main.d33afffe.js.map": "/job-listings-with-filtering/static/js/main.d33afffe.js.map"
+    "main.9000b548.js.map": "/job-listings-with-filtering/static/js/main.9000b548.js.map"
   },
   "entrypoints": [
     "static/css/main.b6f61c12.css",
-    "static/js/main.d33afffe.js"
+    "static/js/main.9000b548.js"
   ]
 }
