@@ -37,13 +37,15 @@ const Job = ({ job, addTag }) => {
     return tags;
   };
 
+  const logo = job.logo.split("/")[2];
+
   return (
     <article
       className={`${styles.article} ${job.featured && styles.featuredJob}`}
     >
       <div className={styles.info}>
         <img
-          src={job.logo}
+          src={require("../images/" + logo)}
           alt={`${job.company} logo`}
           className={styles.logo}
         />

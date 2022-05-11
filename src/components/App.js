@@ -20,8 +20,6 @@ const App = () => {
           return job[prop].indexOf(value) !== -1;
         }
       });
-
-      console.log(filteredList);
     }
 
     setFilteredJobs([...filteredList]);
