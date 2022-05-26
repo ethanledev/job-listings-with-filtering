@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/hieuhmle/job-listings-with-filtering)
+- Solution URL: [Github Repo](https://github.com/hieulecoder/job-listings-with-filtering)
 - Live Site URL: [Live site](https://hieulecoder.github.io/job-listings-with-filtering)
 
 ## My process
